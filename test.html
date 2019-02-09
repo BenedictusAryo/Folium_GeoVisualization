@@ -1,0 +1,4093 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_fe09430813624fb9ab75db8f2285dec4 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_fe09430813624fb9ab75db8f2285dec4" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_fe09430813624fb9ab75db8f2285dec4 = L.map(
+        'map_fe09430813624fb9ab75db8f2285dec4', {
+        center: [-6.2, 106.8],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_2d72e9fbb3c340cc923a8c7f18ffa1e0 = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_fe09430813624fb9ab75db8f2285dec4);
+    
+
+            var circle_42940a75413a48ecb4a43a2cc40f13eb = L.circle(
+                [-6.18738, 106.83615],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 219.465,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_abb895a2b38c4387a12d7cc7fbc151d0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_28985b16d9f14ee5ac7b2eb70fb81377 = $(`<div id="html_28985b16d9f14ee5ac7b2eb70fb81377" style="width: 100.0%; height: 100.0%;">Foglio Gerbang</div>`)[0];
+                popup_abb895a2b38c4387a12d7cc7fbc151d0.setContent(html_28985b16d9f14ee5ac7b2eb70fb81377);
+            
+
+            circle_42940a75413a48ecb4a43a2cc40f13eb.bindPopup(popup_abb895a2b38c4387a12d7cc7fbc151d0)
+            ;
+
+            
+        
+    
+
+            var circle_00a5b1c7a96545388a404103b0eab5fa = L.circle(
+                [-6.2231, 106.8257],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 619.015,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_f5043f253f704be4bf8d0d8f34cb608f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7c9722dd5bc9430a8b57655ffec73a76 = $(`<div id="html_7c9722dd5bc9430a8b57655ffec73a76" style="width: 100.0%; height: 100.0%;">Mall Ambassador</div>`)[0];
+                popup_f5043f253f704be4bf8d0d8f34cb608f.setContent(html_7c9722dd5bc9430a8b57655ffec73a76);
+            
+
+            circle_00a5b1c7a96545388a404103b0eab5fa.bindPopup(popup_f5043f253f704be4bf8d0d8f34cb608f)
+            ;
+
+            
+        
+    
+
+            var circle_891cd2451a304d2d8e7b78a738ccf1a1 = L.circle(
+                [-6.20263, 106.81],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 158.898,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_7d662d42cacc409cb2c24fa449f44c60 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8600ace7c52e4422a8c5002e98285442 = $(`<div id="html_8600ace7c52e4422a8c5002e98285442" style="width: 100.0%; height: 100.0%;">K PS Barat</div>`)[0];
+                popup_7d662d42cacc409cb2c24fa449f44c60.setContent(html_8600ace7c52e4422a8c5002e98285442);
+            
+
+            circle_891cd2451a304d2d8e7b78a738ccf1a1.bindPopup(popup_7d662d42cacc409cb2c24fa449f44c60)
+            ;
+
+            
+        
+    
+
+            var circle_9b735158e0684185b86497f8c351e8af = L.circle(
+                [-6.3045, 106.794],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 414.906,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_ae082834aadd4441822fbf31c97e0c8f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cb7135f91a7e4ffd855861cdacfcec4a = $(`<div id="html_cb7135f91a7e4ffd855861cdacfcec4a" style="width: 100.0%; height: 100.0%;">AKUP_FATMAWATI</div>`)[0];
+                popup_ae082834aadd4441822fbf31c97e0c8f.setContent(html_cb7135f91a7e4ffd855861cdacfcec4a);
+            
+
+            circle_9b735158e0684185b86497f8c351e8af.bindPopup(popup_ae082834aadd4441822fbf31c97e0c8f)
+            ;
+
+            
+        
+    
+
+            var circle_8d8492459d9045b1ae570e5b45304aa9 = L.circle(
+                [-6.1098, 106.7911],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 999.911,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_24d6830b5bf64f5a9ed225523a372fd5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_46fb6169eb054bf5b61b4ddf900b8066 = $(`<div id="html_46fb6169eb054bf5b61b4ddf900b8066" style="width: 100.0%; height: 100.0%;">Menara Marina</div>`)[0];
+                popup_24d6830b5bf64f5a9ed225523a372fd5.setContent(html_46fb6169eb054bf5b61b4ddf900b8066);
+            
+
+            circle_8d8492459d9045b1ae570e5b45304aa9.bindPopup(popup_24d6830b5bf64f5a9ed225523a372fd5)
+            ;
+
+            
+        
+    
+
+            var circle_4198b8c129454e0b9bbec686246fac73 = L.circle(
+                [-6.2867, 106.865],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 353.829,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_9671feeba2904add8189b66f427bc984 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_45062ceb642840d0a495f842be175915 = $(`<div id="html_45062ceb642840d0a495f842be175915" style="width: 100.0%; height: 100.0%;">Inpres Tengah</div>`)[0];
+                popup_9671feeba2904add8189b66f427bc984.setContent(html_45062ceb642840d0a495f842be175915);
+            
+
+            circle_4198b8c129454e0b9bbec686246fac73.bindPopup(popup_9671feeba2904add8189b66f427bc984)
+            ;
+
+            
+        
+    
+
+            var circle_efbbebf895044a46b398604e46c5c707 = L.circle(
+                [-6.24222, 106.96045],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 726.429,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_0918c057f7d84d419312f25a6f832465 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d5a55ff9b7fa41d8a435e902c9abc77f = $(`<div id="html_d5a55ff9b7fa41d8a435e902c9abc77f" style="width: 100.0%; height: 100.0%;">Kamp. Dua  - Jaka Sampurna</div>`)[0];
+                popup_0918c057f7d84d419312f25a6f832465.setContent(html_d5a55ff9b7fa41d8a435e902c9abc77f);
+            
+
+            circle_efbbebf895044a46b398604e46c5c707.bindPopup(popup_0918c057f7d84d419312f25a6f832465)
+            ;
+
+            
+        
+    
+
+            var circle_f842f223c5164d99a61110b328b57eb4 = L.circle(
+                [-6.35, 106.7896],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 452.489,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_e57ffd4ff0544dfea02055133ad34d42 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_33f88f352a584af59e8ca139b31beb21 = $(`<div id="html_33f88f352a584af59e8ca139b31beb21" style="width: 100.0%; height: 100.0%;">Krukut Limo</div>`)[0];
+                popup_e57ffd4ff0544dfea02055133ad34d42.setContent(html_33f88f352a584af59e8ca139b31beb21);
+            
+
+            circle_f842f223c5164d99a61110b328b57eb4.bindPopup(popup_e57ffd4ff0544dfea02055133ad34d42)
+            ;
+
+            
+        
+    
+
+            var circle_3bddf2eb80a7457db4b0871e0afaa63c = L.circle(
+                [-6.21471, 106.81911000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 418.874,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_cea0e5220ae045f48ab0925ce6130890 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b0499c7903254dc7bf93f7d6ff693bb8 = $(`<div id="html_b0499c7903254dc7bf93f7d6ff693bb8" style="width: 100.0%; height: 100.0%;">METROPOL_JKT2</div>`)[0];
+                popup_cea0e5220ae045f48ab0925ce6130890.setContent(html_b0499c7903254dc7bf93f7d6ff693bb8);
+            
+
+            circle_3bddf2eb80a7457db4b0871e0afaa63c.bindPopup(popup_cea0e5220ae045f48ab0925ce6130890)
+            ;
+
+            
+        
+    
+
+            var circle_b35e113d974e4560b38a9e57ad02a8e6 = L.circle(
+                [-6.22711, 106.82643999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 130.598,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_73eef1ad15a04725b45c51add434e8fd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c810b2c957e9475abadce7ba673eb5f8 = $(`<div id="html_c810b2c957e9475abadce7ba673eb5f8" style="width: 100.0%; height: 100.0%;">Menara Rajawali</div>`)[0];
+                popup_73eef1ad15a04725b45c51add434e8fd.setContent(html_c810b2c957e9475abadce7ba673eb5f8);
+            
+
+            circle_b35e113d974e4560b38a9e57ad02a8e6.bindPopup(popup_73eef1ad15a04725b45c51add434e8fd)
+            ;
+
+            
+        
+    
+
+            var circle_faabe9723ec44eb19355cbb46146f0e3 = L.circle(
+                [-6.23327, 106.82287],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 226.654,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_727ad29ebcab48c8a47e7d3072fa8940 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fc45fa7cc3264e0da7a23ec8cc7282ce = $(`<div id="html_fc45fa7cc3264e0da7a23ec8cc7282ce" style="width: 100.0%; height: 100.0%;">Patra Office Tower</div>`)[0];
+                popup_727ad29ebcab48c8a47e7d3072fa8940.setContent(html_fc45fa7cc3264e0da7a23ec8cc7282ce);
+            
+
+            circle_faabe9723ec44eb19355cbb46146f0e3.bindPopup(popup_727ad29ebcab48c8a47e7d3072fa8940)
+            ;
+
+            
+        
+    
+
+            var circle_0084476ab8eb49459a85d252d0f6e12a = L.circle(
+                [-6.36051, 106.82278000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 492.902,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_fbdb3bb8ae4846ab838161dea71ef7ca = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_62a3ab38d90f475aa5eff420acf1d65d = $(`<div id="html_62a3ab38d90f475aa5eff420acf1d65d" style="width: 100.0%; height: 100.0%;">Kampus UI</div>`)[0];
+                popup_fbdb3bb8ae4846ab838161dea71ef7ca.setContent(html_62a3ab38d90f475aa5eff420acf1d65d);
+            
+
+            circle_0084476ab8eb49459a85d252d0f6e12a.bindPopup(popup_fbdb3bb8ae4846ab838161dea71ef7ca)
+            ;
+
+            
+        
+    
+
+            var circle_350e00b57dce4f5ebd3da81d4fac38e0 = L.circle(
+                [-6.21047, 106.82255],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.385,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_f5828dbcb7f348dbbd95c61e8f651ae9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5370b5cc48e74c968b73f62c79470909 = $(`<div id="html_5370b5cc48e74c968b73f62c79470909" style="width: 100.0%; height: 100.0%;">The Peak</div>`)[0];
+                popup_f5828dbcb7f348dbbd95c61e8f651ae9.setContent(html_5370b5cc48e74c968b73f62c79470909);
+            
+
+            circle_350e00b57dce4f5ebd3da81d4fac38e0.bindPopup(popup_f5828dbcb7f348dbbd95c61e8f651ae9)
+            ;
+
+            
+        
+    
+
+            var circle_dccb703150834e20b16801ec92771e09 = L.circle(
+                [-6.2410000000000005, 106.8202],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 686.611,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_9c043fe1921f45c08e45db0e1fcc7364 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3a3301c7fb2d4ea79f0c08f05544b4af = $(`<div id="html_3a3301c7fb2d4ea79f0c08f05544b4af" style="width: 100.0%; height: 100.0%;">Bangka 1</div>`)[0];
+                popup_9c043fe1921f45c08e45db0e1fcc7364.setContent(html_3a3301c7fb2d4ea79f0c08f05544b4af);
+            
+
+            circle_dccb703150834e20b16801ec92771e09.bindPopup(popup_9c043fe1921f45c08e45db0e1fcc7364)
+            ;
+
+            
+        
+    
+
+            var circle_0e653517882b423399498177a42277af = L.circle(
+                [-6.2493, 106.7241],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 141.567,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_ba6503f84cd54fdf87fc3ebd71c33a02 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6763437e89124090a92b663d20c1a120 = $(`<div id="html_6763437e89124090a92b663d20c1a120" style="width: 100.0%; height: 100.0%;">Kp Paninggilan - South Larangan</div>`)[0];
+                popup_ba6503f84cd54fdf87fc3ebd71c33a02.setContent(html_6763437e89124090a92b663d20c1a120);
+            
+
+            circle_0e653517882b423399498177a42277af.bindPopup(popup_ba6503f84cd54fdf87fc3ebd71c33a02)
+            ;
+
+            
+        
+    
+
+            var circle_9764f33d0d9a4d5ca90bf0aa4b4d6297 = L.circle(
+                [-6.2278, 106.7989],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 756.309,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_145d062a6dbf48ba9c279d86775c5671 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c05bceba379a4cb2a86f31babbbf89ec = $(`<div id="html_c05bceba379a4cb2a86f31babbbf89ec" style="width: 100.0%; height: 100.0%;">Plaza Senayan_1</div>`)[0];
+                popup_145d062a6dbf48ba9c279d86775c5671.setContent(html_c05bceba379a4cb2a86f31babbbf89ec);
+            
+
+            circle_9764f33d0d9a4d5ca90bf0aa4b4d6297.bindPopup(popup_145d062a6dbf48ba9c279d86775c5671)
+            ;
+
+            
+        
+    
+
+            var circle_b22118a00d8d40c693544369cabd86a1 = L.circle(
+                [-6.28247, 106.72645],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 256.924,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_df63920aab0a4f07aa45d47240ccc66d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1f487aa71bec48998a006c062af039f7 = $(`<div id="html_1f487aa71bec48998a006c062af039f7" style="width: 100.0%; height: 100.0%;">JB TGR3</div>`)[0];
+                popup_df63920aab0a4f07aa45d47240ccc66d.setContent(html_1f487aa71bec48998a006c062af039f7);
+            
+
+            circle_b22118a00d8d40c693544369cabd86a1.bindPopup(popup_df63920aab0a4f07aa45d47240ccc66d)
+            ;
+
+            
+        
+    
+
+            var circle_19a008ef9bb5458aaeb6d24c6ec8e437 = L.circle(
+                [-6.211129, 106.82238799999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 474.054,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_64d5173db45e4b91afd9369ab2458e0b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f8f2eb39da7c4a99bf28f9ab94ced298 = $(`<div id="html_f8f2eb39da7c4a99bf28f9ab94ced298" style="width: 100.0%; height: 100.0%;">Sinar Mas MSIG</div>`)[0];
+                popup_64d5173db45e4b91afd9369ab2458e0b.setContent(html_f8f2eb39da7c4a99bf28f9ab94ced298);
+            
+
+            circle_19a008ef9bb5458aaeb6d24c6ec8e437.bindPopup(popup_64d5173db45e4b91afd9369ab2458e0b)
+            ;
+
+            
+        
+    
+
+            var circle_74cb063dbe8e4accaae6cf02af0bc7e0 = L.circle(
+                [-6.187608, 106.81258400000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 40.909,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_9da22cfc136140ca937eb200501fa270 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ebfb7ae3dcac404c8c432eb8830149b1 = $(`<div id="html_ebfb7ae3dcac404c8c432eb8830149b1" style="width: 100.0%; height: 100.0%;">Tanah Abang Blok F</div>`)[0];
+                popup_9da22cfc136140ca937eb200501fa270.setContent(html_ebfb7ae3dcac404c8c432eb8830149b1);
+            
+
+            circle_74cb063dbe8e4accaae6cf02af0bc7e0.bindPopup(popup_9da22cfc136140ca937eb200501fa270)
+            ;
+
+            
+        
+    
+
+            var circle_c38ac94ad1114c89aaef2cc15151f7df = L.circle(
+                [-6.1971, 106.73200000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 750.348,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_b3f9956cfb324f93b8580093544124fc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_98580adb05004c7287fb5903fe1d0036 = $(`<div id="html_98580adb05004c7287fb5903fe1d0036" style="width: 100.0%; height: 100.0%;">Meruya Utara - Kembangan</div>`)[0];
+                popup_b3f9956cfb324f93b8580093544124fc.setContent(html_98580adb05004c7287fb5903fe1d0036);
+            
+
+            circle_c38ac94ad1114c89aaef2cc15151f7df.bindPopup(popup_b3f9956cfb324f93b8580093544124fc)
+            ;
+
+            
+        
+    
+
+            var circle_5d868e202a2743178608ed4e06545d04 = L.circle(
+                [-6.2255, 106.6804],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 616.899,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_b1d5a160666a46d7b7b5e2cc088662bf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ae1eeedd30974efcaabe47eba1f7f336 = $(`<div id="html_ae1eeedd30974efcaabe47eba1f7f336" style="width: 100.0%; height: 100.0%;">Kunciran</div>`)[0];
+                popup_b1d5a160666a46d7b7b5e2cc088662bf.setContent(html_ae1eeedd30974efcaabe47eba1f7f336);
+            
+
+            circle_5d868e202a2743178608ed4e06545d04.bindPopup(popup_b1d5a160666a46d7b7b5e2cc088662bf)
+            ;
+
+            
+        
+    
+
+            var circle_eee4e6c4fd504c72b0f2590915fb4c15 = L.circle(
+                [-6.19517, 106.68428999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 915.1,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_a9504e7066214f5480c930917e0beec0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5f54a52727f74fc28de9941a9af88251 = $(`<div id="html_5f54a52727f74fc28de9941a9af88251" style="width: 100.0%; height: 100.0%;">Cipondoh</div>`)[0];
+                popup_a9504e7066214f5480c930917e0beec0.setContent(html_5f54a52727f74fc28de9941a9af88251);
+            
+
+            circle_eee4e6c4fd504c72b0f2590915fb4c15.bindPopup(popup_a9504e7066214f5480c930917e0beec0)
+            ;
+
+            
+        
+    
+
+            var circle_bbc1ab8c43dd4acb9c27c3d479a7432e = L.circle(
+                [-6.16904, 106.68995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 598.713,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_8c9c913c4e2840c7b68f9bf26802d116 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6582d9856d214e46a41c9811fb640de0 = $(`<div id="html_6582d9856d214e46a41c9811fb640de0" style="width: 100.0%; height: 100.0%;">Grand Poris</div>`)[0];
+                popup_8c9c913c4e2840c7b68f9bf26802d116.setContent(html_6582d9856d214e46a41c9811fb640de0);
+            
+
+            circle_bbc1ab8c43dd4acb9c27c3d479a7432e.bindPopup(popup_8c9c913c4e2840c7b68f9bf26802d116)
+            ;
+
+            
+        
+    
+
+            var circle_8c89250b90ca4966b5750518ecec6f20 = L.circle(
+                [-6.22887, 106.80195],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 138.008,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_8a6f74b781b94da7a61ac26a658bc2e9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_580c8e7ea16844819893bb921ef86476 = $(`<div id="html_580c8e7ea16844819893bb921ef86476" style="width: 100.0%; height: 100.0%;">SENOPATI PENTHOUSE</div>`)[0];
+                popup_8a6f74b781b94da7a61ac26a658bc2e9.setContent(html_580c8e7ea16844819893bb921ef86476);
+            
+
+            circle_8c89250b90ca4966b5750518ecec6f20.bindPopup(popup_8a6f74b781b94da7a61ac26a658bc2e9)
+            ;
+
+            
+        
+    
+
+            var circle_82f988f44f5b4fc995eb0b68513d28dc = L.circle(
+                [-6.22887, 106.80321],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 395.087,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_30f0a382bd7842d8acd3cbe5a5c9096d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_217c4a05c7fe498288e01a2af91a771a = $(`<div id="html_217c4a05c7fe498288e01a2af91a771a" style="width: 100.0%; height: 100.0%;">Senopati Suites 2</div>`)[0];
+                popup_30f0a382bd7842d8acd3cbe5a5c9096d.setContent(html_217c4a05c7fe498288e01a2af91a771a);
+            
+
+            circle_82f988f44f5b4fc995eb0b68513d28dc.bindPopup(popup_30f0a382bd7842d8acd3cbe5a5c9096d)
+            ;
+
+            
+        
+    
+
+            var circle_c7f66e82386d490daf08d8e0e7b60b4e = L.circle(
+                [-6.2544, 106.73200000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 56.627,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_384f581db2bd437598d38aa54e48ce80 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_98ff87af5ad24f6aadd8ec8fe19e9e33 = $(`<div id="html_98ff87af5ad24f6aadd8ec8fe19e9e33" style="width: 100.0%; height: 100.0%;">Pesantren -Jurang Mangu Timur</div>`)[0];
+                popup_384f581db2bd437598d38aa54e48ce80.setContent(html_98ff87af5ad24f6aadd8ec8fe19e9e33);
+            
+
+            circle_c7f66e82386d490daf08d8e0e7b60b4e.bindPopup(popup_384f581db2bd437598d38aa54e48ce80)
+            ;
+
+            
+        
+    
+
+            var circle_24ccedf48540432ea5d179d564b288f5 = L.circle(
+                [-6.31206, 106.77036000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 138.735,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_d864cbc9a0454b04a6459d23ee8c2ede = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e2a08a52a9d48d3b2dc653d4992c287 = $(`<div id="html_5e2a08a52a9d48d3b2dc653d4992c287" style="width: 100.0%; height: 100.0%;">Gunung Raya - Cirendeu</div>`)[0];
+                popup_d864cbc9a0454b04a6459d23ee8c2ede.setContent(html_5e2a08a52a9d48d3b2dc653d4992c287);
+            
+
+            circle_24ccedf48540432ea5d179d564b288f5.bindPopup(popup_d864cbc9a0454b04a6459d23ee8c2ede)
+            ;
+
+            
+        
+    
+
+            var circle_1ca8a608cd59492a893feeb96f4717be = L.circle(
+                [-6.211, 106.818522],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 175.075,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_9679dd602c4e45998dcc469f6482da7e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_daea5cb035da4aaeab20dbb9dc44a599 = $(`<div id="html_daea5cb035da4aaeab20dbb9dc44a599" style="width: 100.0%; height: 100.0%;">Sahid Sudirman Center Office Building</div>`)[0];
+                popup_9679dd602c4e45998dcc469f6482da7e.setContent(html_daea5cb035da4aaeab20dbb9dc44a599);
+            
+
+            circle_1ca8a608cd59492a893feeb96f4717be.bindPopup(popup_9679dd602c4e45998dcc469f6482da7e)
+            ;
+
+            
+        
+    
+
+            var circle_43bc16274c4343ab90c643aa434784f0 = L.circle(
+                [-6.23129, 106.71171000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 983.374,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_c417c6d90d304a919f40b75cfcd79567 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6166991d019242b7a58868c6d80b678c = $(`<div id="html_6166991d019242b7a58868c6d80b678c" style="width: 100.0%; height: 100.0%;">Tanah Seratus-Sudimara</div>`)[0];
+                popup_c417c6d90d304a919f40b75cfcd79567.setContent(html_6166991d019242b7a58868c6d80b678c);
+            
+
+            circle_43bc16274c4343ab90c643aa434784f0.bindPopup(popup_c417c6d90d304a919f40b75cfcd79567)
+            ;
+
+            
+        
+    
+
+            var circle_92f6a939f28949688ca89f988e13aa32 = L.circle(
+                [-6.1988, 106.9242],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.091,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_4e86a1d130294b1298400e63ed01ab26 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cda18010f598448298499f5590f22aba = $(`<div id="html_cda18010f598448298499f5590f22aba" style="width: 100.0%; height: 100.0%;">JL_RADJIMAN_WT</div>`)[0];
+                popup_4e86a1d130294b1298400e63ed01ab26.setContent(html_cda18010f598448298499f5590f22aba);
+            
+
+            circle_92f6a939f28949688ca89f988e13aa32.bindPopup(popup_4e86a1d130294b1298400e63ed01ab26)
+            ;
+
+            
+        
+    
+
+            var circle_5c8a42ccceb54018bc0d3c7827a3353f = L.circle(
+                [-6.2053, 106.84921000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 125.404,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_3005864a93d7449ab1677643dd10aa05 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_054bb318b1f94a2098c235c8639e35a5 = $(`<div id="html_054bb318b1f94a2098c235c8639e35a5" style="width: 100.0%; height: 100.0%;">RSIA Tambak</div>`)[0];
+                popup_3005864a93d7449ab1677643dd10aa05.setContent(html_054bb318b1f94a2098c235c8639e35a5);
+            
+
+            circle_5c8a42ccceb54018bc0d3c7827a3353f.bindPopup(popup_3005864a93d7449ab1677643dd10aa05)
+            ;
+
+            
+        
+    
+
+            var circle_76711ed0815f49a3a92780799aabef40 = L.circle(
+                [-6.25149, 106.8201],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 862.857,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_9b9220d7b96b47489e8e41d1a0752851 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5ddc6bc11af8426da7bd2d4f5363cfff = $(`<div id="html_5ddc6bc11af8426da7bd2d4f5363cfff" style="width: 100.0%; height: 100.0%;">Bangka 9</div>`)[0];
+                popup_9b9220d7b96b47489e8e41d1a0752851.setContent(html_5ddc6bc11af8426da7bd2d4f5363cfff);
+            
+
+            circle_76711ed0815f49a3a92780799aabef40.bindPopup(popup_9b9220d7b96b47489e8e41d1a0752851)
+            ;
+
+            
+        
+    
+
+            var circle_ee8ba26105084ca5a8e6edde2ef90422 = L.circle(
+                [-6.2083900000000005, 106.82287],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 829.076,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_47ca338c75bf43a1a31e61294b6046fb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cc99708036e44500b129c3c75b1f8ec4 = $(`<div id="html_cc99708036e44500b129c3c75b1f8ec4" style="width: 100.0%; height: 100.0%;">Indofood Noodle and Food Seasoning</div>`)[0];
+                popup_47ca338c75bf43a1a31e61294b6046fb.setContent(html_cc99708036e44500b129c3c75b1f8ec4);
+            
+
+            circle_ee8ba26105084ca5a8e6edde2ef90422.bindPopup(popup_47ca338c75bf43a1a31e61294b6046fb)
+            ;
+
+            
+        
+    
+
+            var circle_ab0f3f5a10de45308de353da4889425b = L.circle(
+                [-6.31116, 106.755],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 920.704,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_735664511a134d1b97b0b43e5ef6e0e8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d668a2934dec41159bc5d6b190f0e71e = $(`<div id="html_d668a2934dec41159bc5d6b190f0e71e" style="width: 100.0%; height: 100.0%;">IR. H. JUANDA</div>`)[0];
+                popup_735664511a134d1b97b0b43e5ef6e0e8.setContent(html_d668a2934dec41159bc5d6b190f0e71e);
+            
+
+            circle_ab0f3f5a10de45308de353da4889425b.bindPopup(popup_735664511a134d1b97b0b43e5ef6e0e8)
+            ;
+
+            
+        
+    
+
+            var circle_6e38673e63004f8f80ab5ed97c37c44e = L.circle(
+                [-6.2037, 106.82343],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 229.918,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_13ed679fb017401ba388381d20714dd8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7ffb9e4aa3e2451d948ffa526b46e67e = $(`<div id="html_7ffb9e4aa3e2451d948ffa526b46e67e" style="width: 100.0%; height: 100.0%;">Landmark Building Tower 1 & 2</div>`)[0];
+                popup_13ed679fb017401ba388381d20714dd8.setContent(html_7ffb9e4aa3e2451d948ffa526b46e67e);
+            
+
+            circle_6e38673e63004f8f80ab5ed97c37c44e.bindPopup(popup_13ed679fb017401ba388381d20714dd8)
+            ;
+
+            
+        
+    
+
+            var circle_3500431fd56c4c6688e8268feb80c8c8 = L.circle(
+                [-6.21306, 106.80128],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 896.578,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_43d8ca431f024187bc66bf7cc0db4cd7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d0b46dcb6f5948fb9cc9d9166d3898b5 = $(`<div id="html_d0b46dcb6f5948fb9cc9d9166d3898b5" style="width: 100.0%; height: 100.0%;">TVRI JKT</div>`)[0];
+                popup_43d8ca431f024187bc66bf7cc0db4cd7.setContent(html_d0b46dcb6f5948fb9cc9d9166d3898b5);
+            
+
+            circle_3500431fd56c4c6688e8268feb80c8c8.bindPopup(popup_43d8ca431f024187bc66bf7cc0db4cd7)
+            ;
+
+            
+        
+    
+
+            var circle_1ce665c14deb4cf1976194998e9e4a89 = L.circle(
+                [-6.233889, 106.821389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 26.059,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_904b4a47e7f44aa895867497ae78c2bd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0a0a6125b24348f586d5b4a10fb24735 = $(`<div id="html_0a0a6125b24348f586d5b4a10fb24735" style="width: 100.0%; height: 100.0%;">Menara Jamsostek Bank QNB Kesawan</div>`)[0];
+                popup_904b4a47e7f44aa895867497ae78c2bd.setContent(html_0a0a6125b24348f586d5b4a10fb24735);
+            
+
+            circle_1ce665c14deb4cf1976194998e9e4a89.bindPopup(popup_904b4a47e7f44aa895867497ae78c2bd)
+            ;
+
+            
+        
+    
+
+            var circle_cac9ae5cd4db4c4983c8bef60b3cd29c = L.circle(
+                [-6.2182, 106.8101],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 481.967,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_982941a9208d4e3b86ff5f7e948be7ce = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1df383ed50c2460aa6008ad7369c2960 = $(`<div id="html_1df383ed50c2460aa6008ad7369c2960" style="width: 100.0%; height: 100.0%;">Hotel Hilton</div>`)[0];
+                popup_982941a9208d4e3b86ff5f7e948be7ce.setContent(html_1df383ed50c2460aa6008ad7369c2960);
+            
+
+            circle_cac9ae5cd4db4c4983c8bef60b3cd29c.bindPopup(popup_982941a9208d4e3b86ff5f7e948be7ce)
+            ;
+
+            
+        
+    
+
+            var circle_db42ff120db94dbc83523cbda5e0da3d = L.circle(
+                [-6.2155, 106.82148000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 36.267,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_e724d10bbbb34f98b03a62e074b4dab9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ccbe242de690458f8eb07802a540ac9c = $(`<div id="html_ccbe242de690458f8eb07802a540ac9c" style="width: 100.0%; height: 100.0%;">WTC 2 BANK PERMATA</div>`)[0];
+                popup_e724d10bbbb34f98b03a62e074b4dab9.setContent(html_ccbe242de690458f8eb07802a540ac9c);
+            
+
+            circle_db42ff120db94dbc83523cbda5e0da3d.bindPopup(popup_e724d10bbbb34f98b03a62e074b4dab9)
+            ;
+
+            
+        
+    
+
+            var circle_6809de6078a54ac9830e8e088fe58441 = L.circle(
+                [-6.2014, 106.8236],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 457.62,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_6f99f63ca9f945c0b86ad0a64be4a1cb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1a08fc5a36fc44eeb43d37503024d492 = $(`<div id="html_1a08fc5a36fc44eeb43d37503024d492" style="width: 100.0%; height: 100.0%;">Wisma Gama</div>`)[0];
+                popup_6f99f63ca9f945c0b86ad0a64be4a1cb.setContent(html_1a08fc5a36fc44eeb43d37503024d492);
+            
+
+            circle_6809de6078a54ac9830e8e088fe58441.bindPopup(popup_6f99f63ca9f945c0b86ad0a64be4a1cb)
+            ;
+
+            
+        
+    
+
+            var circle_ce23d9586e484fd593254dff3ee9d069 = L.circle(
+                [-6.2231, 106.8257],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 41.384,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_6294c343b29d404fb7844d8087fe2598 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4d66e9a1df3c445a92e295f0313e06cf = $(`<div id="html_4d66e9a1df3c445a92e295f0313e06cf" style="width: 100.0%; height: 100.0%;">Mall Ambasador</div>`)[0];
+                popup_6294c343b29d404fb7844d8087fe2598.setContent(html_4d66e9a1df3c445a92e295f0313e06cf);
+            
+
+            circle_ce23d9586e484fd593254dff3ee9d069.bindPopup(popup_6294c343b29d404fb7844d8087fe2598)
+            ;
+
+            
+        
+    
+
+            var circle_ea7549f702c64defba7b989fabf8277e = L.circle(
+                [-6.1985, 106.8141],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 307.51,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_114e766d957a4dedb488543e6f3ac718 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_661d0b8c50464d95b47c28d15a9cafce = $(`<div id="html_661d0b8c50464d95b47c28d15a9cafce" style="width: 100.0%; height: 100.0%;">Rukan Maju Jaya</div>`)[0];
+                popup_114e766d957a4dedb488543e6f3ac718.setContent(html_661d0b8c50464d95b47c28d15a9cafce);
+            
+
+            circle_ea7549f702c64defba7b989fabf8277e.bindPopup(popup_114e766d957a4dedb488543e6f3ac718)
+            ;
+
+            
+        
+    
+
+            var circle_cc544d663bb742c5aa140560f5144d3e = L.circle(
+                [-6.2341, 106.8244],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 306.817,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_1f537cdf7cc242f990bb5092e5c6be5e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0f38c9e9ab184fd093b9254960d5eda5 = $(`<div id="html_0f38c9e9ab184fd093b9254960d5eda5" style="width: 100.0%; height: 100.0%;">Gedung Citra Graha</div>`)[0];
+                popup_1f537cdf7cc242f990bb5092e5c6be5e.setContent(html_0f38c9e9ab184fd093b9254960d5eda5);
+            
+
+            circle_cc544d663bb742c5aa140560f5144d3e.bindPopup(popup_1f537cdf7cc242f990bb5092e5c6be5e)
+            ;
+
+            
+        
+    
+
+            var circle_ef3024e48b784b94914fcaeb2fddc026 = L.circle(
+                [-6.1725, 106.8324],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 246.764,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_0040f283105e48cdb79c15aca76caecb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3c3fb7ac840d4ed79ed3158edb42c4ed = $(`<div id="html_3c3fb7ac840d4ed79ed3158edb42c4ed" style="width: 100.0%; height: 100.0%;">Gedung Pusat Pertamina</div>`)[0];
+                popup_0040f283105e48cdb79c15aca76caecb.setContent(html_3c3fb7ac840d4ed79ed3158edb42c4ed);
+            
+
+            circle_ef3024e48b784b94914fcaeb2fddc026.bindPopup(popup_0040f283105e48cdb79c15aca76caecb)
+            ;
+
+            
+        
+    
+
+            var circle_9b9c34bba1d04cde9fd6f1e405073a54 = L.circle(
+                [-6.2016, 106.8326],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 150.802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_e1ca6e140a7d497cbad7b499029b0f61 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8e5b9e3840ad481d9a210d6530ea522e = $(`<div id="html_8e5b9e3840ad481d9a210d6530ea522e" style="width: 100.0%; height: 100.0%;">Mesjid sunda Kelapa</div>`)[0];
+                popup_e1ca6e140a7d497cbad7b499029b0f61.setContent(html_8e5b9e3840ad481d9a210d6530ea522e);
+            
+
+            circle_9b9c34bba1d04cde9fd6f1e405073a54.bindPopup(popup_e1ca6e140a7d497cbad7b499029b0f61)
+            ;
+
+            
+        
+    
+
+            var circle_dd5193cc707340fcbba57cb7dde52579 = L.circle(
+                [-6.2445, 106.7984],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 112.879,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_5e6510ba335446a5939d2d8299da9743 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c1fa9fa6b4e445d19dbb340a2355931c = $(`<div id="html_c1fa9fa6b4e445d19dbb340a2355931c" style="width: 100.0%; height: 100.0%;">M Point</div>`)[0];
+                popup_5e6510ba335446a5939d2d8299da9743.setContent(html_c1fa9fa6b4e445d19dbb340a2355931c);
+            
+
+            circle_dd5193cc707340fcbba57cb7dde52579.bindPopup(popup_5e6510ba335446a5939d2d8299da9743)
+            ;
+
+            
+        
+    
+
+            var circle_89d81f34a1aa402db2430c1fedb09f00 = L.circle(
+                [-6.2394, 106.8124],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 416.237,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_ebd445aadaa440dbbb9ea83069e9dd77 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_de54524c7bb44f048d0536430abd4580 = $(`<div id="html_de54524c7bb44f048d0536430abd4580" style="width: 100.0%; height: 100.0%;">Swalayan Santa</div>`)[0];
+                popup_ebd445aadaa440dbbb9ea83069e9dd77.setContent(html_de54524c7bb44f048d0536430abd4580);
+            
+
+            circle_89d81f34a1aa402db2430c1fedb09f00.bindPopup(popup_ebd445aadaa440dbbb9ea83069e9dd77)
+            ;
+
+            
+        
+    
+
+            var circle_bd2c8fe9fa0d4efa954340d7ec5c1c7d = L.circle(
+                [-6.2618, 106.7884],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 339.671,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_4fc2db4eafa64e6095ae067740005576 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_45bfa46b6f3d4bc39bfecfb2b9a69984 = $(`<div id="html_45bfa46b6f3d4bc39bfecfb2b9a69984" style="width: 100.0%; height: 100.0%;">Alia Global Visitama</div>`)[0];
+                popup_4fc2db4eafa64e6095ae067740005576.setContent(html_45bfa46b6f3d4bc39bfecfb2b9a69984);
+            
+
+            circle_bd2c8fe9fa0d4efa954340d7ec5c1c7d.bindPopup(popup_4fc2db4eafa64e6095ae067740005576)
+            ;
+
+            
+        
+    
+
+            var circle_45eb723872fe419e819b5feb5514f556 = L.circle(
+                [-6.2743, 106.785],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 954.329,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_8ee859b142264f528a9677ae9f72d725 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eeb9c773191b43559555929fec394600 = $(`<div id="html_eeb9c773191b43559555929fec394600" style="width: 100.0%; height: 100.0%;">Apart. Golf Pondok Indah</div>`)[0];
+                popup_8ee859b142264f528a9677ae9f72d725.setContent(html_eeb9c773191b43559555929fec394600);
+            
+
+            circle_45eb723872fe419e819b5feb5514f556.bindPopup(popup_8ee859b142264f528a9677ae9f72d725)
+            ;
+
+            
+        
+    
+
+            var circle_0e70f6f67d4d4fa1b684d4cdfcecc258 = L.circle(
+                [-6.21914, 106.83455],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 758.849,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_dee1b20f9f344579b149d43c5cdf34d6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b96b367facf1401ba0eecef7ca326563 = $(`<div id="html_b96b367facf1401ba0eecef7ca326563" style="width: 100.0%; height: 100.0%;">Bakrie Tower Rasuna Epicentrum</div>`)[0];
+                popup_dee1b20f9f344579b149d43c5cdf34d6.setContent(html_b96b367facf1401ba0eecef7ca326563);
+            
+
+            circle_0e70f6f67d4d4fa1b684d4cdfcecc258.bindPopup(popup_dee1b20f9f344579b149d43c5cdf34d6)
+            ;
+
+            
+        
+    
+
+            var circle_f0b8da77958c4752b806346c729eac73 = L.circle(
+                [-6.210646, 106.816014],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 530.867,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_47d29214538945048c6048911a7f8201 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cc5408004f02422094c28fa53c8a5aec = $(`<div id="html_cc5408004f02422094c28fa53c8a5aec" style="width: 100.0%; height: 100.0%;">Batavia Tower</div>`)[0];
+                popup_47d29214538945048c6048911a7f8201.setContent(html_cc5408004f02422094c28fa53c8a5aec);
+            
+
+            circle_f0b8da77958c4752b806346c729eac73.bindPopup(popup_47d29214538945048c6048911a7f8201)
+            ;
+
+            
+        
+    
+
+            var circle_8e2ce42dae024c739dae393faa2e96f8 = L.circle(
+                [-6.210459999999999, 106.82175],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 330.74,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_c100b5428e164fa3b507086477a24aa0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d1910ce2df594ccab4a4640a4a85fb9e = $(`<div id="html_d1910ce2df594ccab4a4640a4a85fb9e" style="width: 100.0%; height: 100.0%;">Chase Plaza</div>`)[0];
+                popup_c100b5428e164fa3b507086477a24aa0.setContent(html_d1910ce2df594ccab4a4640a4a85fb9e);
+            
+
+            circle_8e2ce42dae024c739dae393faa2e96f8.bindPopup(popup_c100b5428e164fa3b507086477a24aa0)
+            ;
+
+            
+        
+    
+
+            var circle_41dc0571bf6d4d389d87765f12d1fa09 = L.circle(
+                [-6.2386, 106.8241],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 572.216,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_a4f68aa4f9b14fbfad6896d25f92a814 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3ebe95e0ac214b37a88cfd56a2e138de = $(`<div id="html_3ebe95e0ac214b37a88cfd56a2e138de" style="width: 100.0%; height: 100.0%;">Gedung Cyber</div>`)[0];
+                popup_a4f68aa4f9b14fbfad6896d25f92a814.setContent(html_3ebe95e0ac214b37a88cfd56a2e138de);
+            
+
+            circle_41dc0571bf6d4d389d87765f12d1fa09.bindPopup(popup_a4f68aa4f9b14fbfad6896d25f92a814)
+            ;
+
+            
+        
+    
+
+            var circle_e47204df44cd4cc886ab613c2a200bf5 = L.circle(
+                [-6.22698, 106.80991000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 270.03,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_e3c5c314d09c4bc19988d386edd67c53 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5fc3f6891d844e60aa6b192bb6fdae37 = $(`<div id="html_5fc3f6891d844e60aa6b192bb6fdae37" style="width: 100.0%; height: 100.0%;">Equity Tower</div>`)[0];
+                popup_e3c5c314d09c4bc19988d386edd67c53.setContent(html_5fc3f6891d844e60aa6b192bb6fdae37);
+            
+
+            circle_e47204df44cd4cc886ab613c2a200bf5.bindPopup(popup_e3c5c314d09c4bc19988d386edd67c53)
+            ;
+
+            
+        
+    
+
+            var circle_87ad02093cd54efeb9838620f3f9bb6f = L.circle(
+                [-6.23233, 106.83175],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 201.622,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_54b1a68d798e41c7aed53051b7ab4ab3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ffc8c0f2c33240a49d6f23868cd9ae8a = $(`<div id="html_ffc8c0f2c33240a49d6f23868cd9ae8a" style="width: 100.0%; height: 100.0%;">Kadin Tower</div>`)[0];
+                popup_54b1a68d798e41c7aed53051b7ab4ab3.setContent(html_ffc8c0f2c33240a49d6f23868cd9ae8a);
+            
+
+            circle_87ad02093cd54efeb9838620f3f9bb6f.bindPopup(popup_54b1a68d798e41c7aed53051b7ab4ab3)
+            ;
+
+            
+        
+    
+
+            var circle_57322ddd37454c45b84ff3b21f1ba164 = L.circle(
+                [-6.299383, 106.865048],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 919.947,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_6082c4e9862e4080841d1470ae97ee84 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f0dfa4432c8744af8a6c2858b652e949 = $(`<div id="html_f0dfa4432c8744af8a6c2858b652e949" style="width: 100.0%; height: 100.0%;">Jatiwaringin</div>`)[0];
+                popup_6082c4e9862e4080841d1470ae97ee84.setContent(html_f0dfa4432c8744af8a6c2858b652e949);
+            
+
+            circle_57322ddd37454c45b84ff3b21f1ba164.bindPopup(popup_6082c4e9862e4080841d1470ae97ee84)
+            ;
+
+            
+        
+    
+
+            var circle_434116e0029149a0acd1ffa8e7970760 = L.circle(
+                [-6.20602, 106.8199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 490.754,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_6d025273e3df4ce4a77d803c3e1e39c4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_059746c9fff34092b5cfe0319cc97330 = $(`<div id="html_059746c9fff34092b5cfe0319cc97330" style="width: 100.0%; height: 100.0%;">Wisma  Kyoie Prince</div>`)[0];
+                popup_6d025273e3df4ce4a77d803c3e1e39c4.setContent(html_059746c9fff34092b5cfe0319cc97330);
+            
+
+            circle_434116e0029149a0acd1ffa8e7970760.bindPopup(popup_6d025273e3df4ce4a77d803c3e1e39c4)
+            ;
+
+            
+        
+    
+
+            var circle_d56c259057444cb4a1eb6f3c91d76004 = L.circle(
+                [-6.25862, 106.95296],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 460.981,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_811a1ba4bb5d4b8fbbc0dded62292eae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_af8b1d3e7bb24dc89e4942ac2d2a7e73 = $(`<div id="html_af8b1d3e7bb24dc89e4942ac2d2a7e73" style="width: 100.0%; height: 100.0%;">Jatibening</div>`)[0];
+                popup_811a1ba4bb5d4b8fbbc0dded62292eae.setContent(html_af8b1d3e7bb24dc89e4942ac2d2a7e73);
+            
+
+            circle_d56c259057444cb4a1eb6f3c91d76004.bindPopup(popup_811a1ba4bb5d4b8fbbc0dded62292eae)
+            ;
+
+            
+        
+    
+
+            var circle_b6cf8790be284be787c8ba9d00343bb0 = L.circle(
+                [-6.3101719, 106.92513819999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 168.029,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_98cafbe2afc348aeabf4837474ede673 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bbaf88cf767541a9b1a9e1a8977ec8b4 = $(`<div id="html_bbaf88cf767541a9b1a9e1a8977ec8b4" style="width: 100.0%; height: 100.0%;">Ruko PT Dwiputra Global Motorindo</div>`)[0];
+                popup_98cafbe2afc348aeabf4837474ede673.setContent(html_bbaf88cf767541a9b1a9e1a8977ec8b4);
+            
+
+            circle_b6cf8790be284be787c8ba9d00343bb0.bindPopup(popup_98cafbe2afc348aeabf4837474ede673)
+            ;
+
+            
+        
+    
+
+            var circle_abae3af37dab4bf79ac21dcfe26cbb0f = L.circle(
+                [-6.2621, 106.6922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 532.344,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_dab2101dd3414797976098a2dc2a4366 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7f9c65c4950f43f1a6152719b3e6e20f = $(`<div id="html_7f9c65c4950f43f1a6152719b3e6e20f" style="width: 100.0%; height: 100.0%;">Pondok Kacang</div>`)[0];
+                popup_dab2101dd3414797976098a2dc2a4366.setContent(html_7f9c65c4950f43f1a6152719b3e6e20f);
+            
+
+            circle_abae3af37dab4bf79ac21dcfe26cbb0f.bindPopup(popup_dab2101dd3414797976098a2dc2a4366)
+            ;
+
+            
+        
+    
+
+            var circle_9bb14849fefd441d8dfc86a944da1b4d = L.circle(
+                [-6.2289, 106.7202],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 117.958,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_de174b6f4bfc44fdbfdef87ca9a4f20a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5bee255d724b4fdabe05b5759b9abb56 = $(`<div id="html_5bee255d724b4fdabe05b5759b9abb56" style="width: 100.0%; height: 100.0%;">Yongky Motor</div>`)[0];
+                popup_de174b6f4bfc44fdbfdef87ca9a4f20a.setContent(html_5bee255d724b4fdabe05b5759b9abb56);
+            
+
+            circle_9bb14849fefd441d8dfc86a944da1b4d.bindPopup(popup_de174b6f4bfc44fdbfdef87ca9a4f20a)
+            ;
+
+            
+        
+    
+
+            var circle_4a3d35412f944a79bcd15c769e8778f0 = L.circle(
+                [-6.27464, 106.79726000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 673.213,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_5b6211cc9dc14cb8bc5a571f2f8c3ab7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_415a45bfe47a49cdb92294161f1849c1 = $(`<div id="html_415a45bfe47a49cdb92294161f1849c1" style="width: 100.0%; height: 100.0%;">PT Aneka Papera Indah</div>`)[0];
+                popup_5b6211cc9dc14cb8bc5a571f2f8c3ab7.setContent(html_415a45bfe47a49cdb92294161f1849c1);
+            
+
+            circle_4a3d35412f944a79bcd15c769e8778f0.bindPopup(popup_5b6211cc9dc14cb8bc5a571f2f8c3ab7)
+            ;
+
+            
+        
+    
+
+            var circle_7d9a3774d9fe499fbb7dd8842ee61433 = L.circle(
+                [-6.29441, 106.75502],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 608.931,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_a924ccb24e274dda8d9506190acc9316 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cc9e0580f2eb4dd387a652a145fa0136 = $(`<div id="html_cc9e0580f2eb4dd387a652a145fa0136" style="width: 100.0%; height: 100.0%;">Cempaka Putih (Colo IT)</div>`)[0];
+                popup_a924ccb24e274dda8d9506190acc9316.setContent(html_cc9e0580f2eb4dd387a652a145fa0136);
+            
+
+            circle_7d9a3774d9fe499fbb7dd8842ee61433.bindPopup(popup_a924ccb24e274dda8d9506190acc9316)
+            ;
+
+            
+        
+    
+
+            var circle_ca1ad6e88d0142bfaaab8ba87a84cd2d = L.circle(
+                [-6.1644, 106.7651],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 289.476,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_66b92b59f0b0429c99f329ff467ccecb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4021cd1334cf45c68477b53eceb2545e = $(`<div id="html_4021cd1334cf45c68477b53eceb2545e" style="width: 100.0%; height: 100.0%;">Ruko Sehat Sentosa</div>`)[0];
+                popup_66b92b59f0b0429c99f329ff467ccecb.setContent(html_4021cd1334cf45c68477b53eceb2545e);
+            
+
+            circle_ca1ad6e88d0142bfaaab8ba87a84cd2d.bindPopup(popup_66b92b59f0b0429c99f329ff467ccecb)
+            ;
+
+            
+        
+    
+
+            var circle_3a6cd9a7d4f24c1ea97c1db709f795c9 = L.circle(
+                [-6.223751, 106.84261200000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 343.327,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_b7e3848eb3574673a3e329e0d3e86fdf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2e239441fe3742d584237fb9755b3104 = $(`<div id="html_2e239441fe3742d584237fb9755b3104" style="width: 100.0%; height: 100.0%;">Kota Casablanca</div>`)[0];
+                popup_b7e3848eb3574673a3e329e0d3e86fdf.setContent(html_2e239441fe3742d584237fb9755b3104);
+            
+
+            circle_3a6cd9a7d4f24c1ea97c1db709f795c9.bindPopup(popup_b7e3848eb3574673a3e329e0d3e86fdf)
+            ;
+
+            
+        
+    
+
+            var circle_19b3f0d49964426cb88afd8012405467 = L.circle(
+                [-6.1355900000000005, 106.78445],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 707.619,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_5027a93bdf2a4174bdee34c84e6cc2e9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bba2a810261b40638ce97329c76b39ab = $(`<div id="html_bba2a810261b40638ce97329c76b39ab" style="width: 100.0%; height: 100.0%;">Pluit Karang Karya</div>`)[0];
+                popup_5027a93bdf2a4174bdee34c84e6cc2e9.setContent(html_bba2a810261b40638ce97329c76b39ab);
+            
+
+            circle_19b3f0d49964426cb88afd8012405467.bindPopup(popup_5027a93bdf2a4174bdee34c84e6cc2e9)
+            ;
+
+            
+        
+    
+
+            var circle_145bb85ddeac4b5a912834b028b1e1f8 = L.circle(
+                [-6.2278, 106.7989],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 470.111,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_f4979cf7289c4b129f420bfbb40d2163 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_be01305e329c4745859866479fe01c23 = $(`<div id="html_be01305e329c4745859866479fe01c23" style="width: 100.0%; height: 100.0%;">Plaza Senayan_2</div>`)[0];
+                popup_f4979cf7289c4b129f420bfbb40d2163.setContent(html_be01305e329c4745859866479fe01c23);
+            
+
+            circle_145bb85ddeac4b5a912834b028b1e1f8.bindPopup(popup_f4979cf7289c4b129f420bfbb40d2163)
+            ;
+
+            
+        
+    
+
+            var circle_2903d4e9c67a45d8a05e454bcbb3767c = L.circle(
+                [-6.3259, 106.7671],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 838.97,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_8c22db707f924fbb890d200e357d8ec8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a91a2aef8ab343619f9cf297fb31b467 = $(`<div id="html_a91a2aef8ab343619f9cf297fb31b467" style="width: 100.0%; height: 100.0%;">Cirendeu Raya</div>`)[0];
+                popup_8c22db707f924fbb890d200e357d8ec8.setContent(html_a91a2aef8ab343619f9cf297fb31b467);
+            
+
+            circle_2903d4e9c67a45d8a05e454bcbb3767c.bindPopup(popup_8c22db707f924fbb890d200e357d8ec8)
+            ;
+
+            
+        
+    
+
+            var circle_846e07b737864bf59ae55fd46501ae72 = L.circle(
+                [-6.23692, 106.69406000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 638.283,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_d9a944ff1dc940e6bdb1fe2de6fd819d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_baede2faf39a4905b535298992cc9c4c = $(`<div id="html_baede2faf39a4905b535298992cc9c4c" style="width: 100.0%; height: 100.0%;">Puri Kartika</div>`)[0];
+                popup_d9a944ff1dc940e6bdb1fe2de6fd819d.setContent(html_baede2faf39a4905b535298992cc9c4c);
+            
+
+            circle_846e07b737864bf59ae55fd46501ae72.bindPopup(popup_d9a944ff1dc940e6bdb1fe2de6fd819d)
+            ;
+
+            
+        
+    
+
+            var circle_c876a2627e6c4e28b965314a007bb11d = L.circle(
+                [-6.20937, 106.70382],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 807.427,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_732287309698447aab882d4632842189 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fe8ae189db9c488b97dbaca76107d6d6 = $(`<div id="html_fe8ae189db9c488b97dbaca76107d6d6" style="width: 100.0%; height: 100.0%;">Pondok pucung</div>`)[0];
+                popup_732287309698447aab882d4632842189.setContent(html_fe8ae189db9c488b97dbaca76107d6d6);
+            
+
+            circle_c876a2627e6c4e28b965314a007bb11d.bindPopup(popup_732287309698447aab882d4632842189)
+            ;
+
+            
+        
+    
+
+            var circle_39c617f392894ad199a8ea92ab2dfc63 = L.circle(
+                [-6.22433, 106.68855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 703.079,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_9a1d42d2521d4ba1a6dd4538d44f5bf1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_41ef307f51f949ae87340c8c492e12d6 = $(`<div id="html_41ef307f51f949ae87340c8c492e12d6" style="width: 100.0%; height: 100.0%;">Sudimara Pinang</div>`)[0];
+                popup_9a1d42d2521d4ba1a6dd4538d44f5bf1.setContent(html_41ef307f51f949ae87340c8c492e12d6);
+            
+
+            circle_39c617f392894ad199a8ea92ab2dfc63.bindPopup(popup_9a1d42d2521d4ba1a6dd4538d44f5bf1)
+            ;
+
+            
+        
+    
+
+            var circle_64cc22566a67418292290544c01b6459 = L.circle(
+                [-6.12953, 106.88598999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 286.554,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_b980b8ffe6ad46ffa29a3152416c3811 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5248c484989b4ad69ec508e02d7e9111 = $(`<div id="html_5248c484989b4ad69ec508e02d7e9111" style="width: 100.0%; height: 100.0%;">Gaya Motor</div>`)[0];
+                popup_b980b8ffe6ad46ffa29a3152416c3811.setContent(html_5248c484989b4ad69ec508e02d7e9111);
+            
+
+            circle_64cc22566a67418292290544c01b6459.bindPopup(popup_b980b8ffe6ad46ffa29a3152416c3811)
+            ;
+
+            
+        
+    
+
+            var circle_63ae52b5bf2b4211b30d0e5bfa0c4133 = L.circle(
+                [-6.1761800000000004, 106.83783000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 750.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_a2c2a467e92a4fc88d8d5476b3f6dd91 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_20ed9ec5b744413ab6528be5e2d3943f = $(`<div id="html_20ed9ec5b744413ab6528be5e2d3943f" style="width: 100.0%; height: 100.0%;">RSPAD Gatsu</div>`)[0];
+                popup_a2c2a467e92a4fc88d8d5476b3f6dd91.setContent(html_20ed9ec5b744413ab6528be5e2d3943f);
+            
+
+            circle_63ae52b5bf2b4211b30d0e5bfa0c4133.bindPopup(popup_a2c2a467e92a4fc88d8d5476b3f6dd91)
+            ;
+
+            
+        
+    
+
+            var circle_b3e824e8b10c40bd8c7fe1d3f99bee3b = L.circle(
+                [-6.1643, 106.836],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 765.099,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_36dc1b1908dc4106b07a90d3a85f5a6f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8bfffe5417a243b58dfe942453a483da = $(`<div id="html_8bfffe5417a243b58dfe942453a483da" style="width: 100.0%; height: 100.0%;">Hotel Alia Pasar Baru</div>`)[0];
+                popup_36dc1b1908dc4106b07a90d3a85f5a6f.setContent(html_8bfffe5417a243b58dfe942453a483da);
+            
+
+            circle_b3e824e8b10c40bd8c7fe1d3f99bee3b.bindPopup(popup_36dc1b1908dc4106b07a90d3a85f5a6f)
+            ;
+
+            
+        
+    
+
+            var circle_95c6ef4944ca471dbf8e0a264107b66c = L.circle(
+                [-6.1791599999999995, 106.85465],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 323.93,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_eff8f919183b470f80cd3561ca025901 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0e4ac33b39324dba988d6eb3777492e0 = $(`<div id="html_0e4ac33b39324dba988d6eb3777492e0" style="width: 100.0%; height: 100.0%;">Ruko Kampung Rawa Sawah</div>`)[0];
+                popup_eff8f919183b470f80cd3561ca025901.setContent(html_0e4ac33b39324dba988d6eb3777492e0);
+            
+
+            circle_95c6ef4944ca471dbf8e0a264107b66c.bindPopup(popup_eff8f919183b470f80cd3561ca025901)
+            ;
+
+            
+        
+    
+
+            var circle_feaa6295942e4519a6cb587e08152940 = L.circle(
+                [-6.18, 106.75185],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 315.191,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_f3a79eadc7b94263b5b7731e64ebe577 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_87e425dc8af44d88909dc376501ef716 = $(`<div id="html_87e425dc8af44d88909dc376501ef716" style="width: 100.0%; height: 100.0%;">APARTEMENT WESLING</div>`)[0];
+                popup_f3a79eadc7b94263b5b7731e64ebe577.setContent(html_87e425dc8af44d88909dc376501ef716);
+            
+
+            circle_feaa6295942e4519a6cb587e08152940.bindPopup(popup_f3a79eadc7b94263b5b7731e64ebe577)
+            ;
+
+            
+        
+    
+
+            var circle_accd39077d9241d2971ff627c8bac6e6 = L.circle(
+                [-6.1571, 106.76700000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 716.759,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_2f31dff66c4b41a6a1b0f80b1d2efd35 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1795bcc54da3407f93b4b8f45d1a81b2 = $(`<div id="html_1795bcc54da3407f93b4b8f45d1a81b2" style="width: 100.0%; height: 100.0%;">PT. Himalaya Everest Jaya ( Gedung Himalaya )</div>`)[0];
+                popup_2f31dff66c4b41a6a1b0f80b1d2efd35.setContent(html_1795bcc54da3407f93b4b8f45d1a81b2);
+            
+
+            circle_accd39077d9241d2971ff627c8bac6e6.bindPopup(popup_2f31dff66c4b41a6a1b0f80b1d2efd35)
+            ;
+
+            
+        
+    
+
+            var circle_ca221fa847c64e9d97a82a4b05171f3f = L.circle(
+                [-6.1296, 106.7447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 593.249,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_9c85d896be5d42e7a51c50bad8a276f8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0141ae8d5b0548588e766873c0480a7c = $(`<div id="html_0141ae8d5b0548588e766873c0480a7c" style="width: 100.0%; height: 100.0%;">Kapuk Raya ( Yamaha Kapuk Kamal)</div>`)[0];
+                popup_9c85d896be5d42e7a51c50bad8a276f8.setContent(html_0141ae8d5b0548588e766873c0480a7c);
+            
+
+            circle_ca221fa847c64e9d97a82a4b05171f3f.bindPopup(popup_9c85d896be5d42e7a51c50bad8a276f8)
+            ;
+
+            
+        
+    
+
+            var circle_2599dff1455e4d2db362f787b4f485ad = L.circle(
+                [-6.1549, 106.74700000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 502.375,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_6cb3f4fc075347c1ad4dd7dc82452f67 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2bd8eabd42bf416182a3faf0a9d56508 = $(`<div id="html_2bd8eabd42bf416182a3faf0a9d56508" style="width: 100.0%; height: 100.0%;">Ruko Andyanto Cengkareng Timur II</div>`)[0];
+                popup_6cb3f4fc075347c1ad4dd7dc82452f67.setContent(html_2bd8eabd42bf416182a3faf0a9d56508);
+            
+
+            circle_2599dff1455e4d2db362f787b4f485ad.bindPopup(popup_6cb3f4fc075347c1ad4dd7dc82452f67)
+            ;
+
+            
+        
+    
+
+            var circle_32616b2b39544e179ccb56405e68b036 = L.circle(
+                [-6.1535, 106.7282],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 791.647,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_f62559a9e6a641be945619d14ef913f8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0860cef4aa33421a8124dbb28ad4834e = $(`<div id="html_0860cef4aa33421a8124dbb28ad4834e" style="width: 100.0%; height: 100.0%;">Victory Motor</div>`)[0];
+                popup_f62559a9e6a641be945619d14ef913f8.setContent(html_0860cef4aa33421a8124dbb28ad4834e);
+            
+
+            circle_32616b2b39544e179ccb56405e68b036.bindPopup(popup_f62559a9e6a641be945619d14ef913f8)
+            ;
+
+            
+        
+    
+
+            var circle_404298c4ddc74a30a1df81f801a1a764 = L.circle(
+                [-6.1376, 106.774],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 492.307,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_410677bd324f44b0841e010335fc7250 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4b406392f36f4a0787f9f27c10f4047e = $(`<div id="html_4b406392f36f4a0787f9f27c10f4047e" style="width: 100.0%; height: 100.0%;">Ruko Mutiara Indah</div>`)[0];
+                popup_410677bd324f44b0841e010335fc7250.setContent(html_4b406392f36f4a0787f9f27c10f4047e);
+            
+
+            circle_404298c4ddc74a30a1df81f801a1a764.bindPopup(popup_410677bd324f44b0841e010335fc7250)
+            ;
+
+            
+        
+    
+
+            var circle_5903f004778544c9afcc89373a00f98a = L.circle(
+                [-6.1252, 106.7779],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 251.723,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_4ba9e1f5d47e425fa65d68ec67d65319 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bf3f57b19ca94bd9ad5102ed0f40b4a0 = $(`<div id="html_bf3f57b19ca94bd9ad5102ed0f40b4a0" style="width: 100.0%; height: 100.0%;">Gd. Jojo</div>`)[0];
+                popup_4ba9e1f5d47e425fa65d68ec67d65319.setContent(html_bf3f57b19ca94bd9ad5102ed0f40b4a0);
+            
+
+            circle_5903f004778544c9afcc89373a00f98a.bindPopup(popup_4ba9e1f5d47e425fa65d68ec67d65319)
+            ;
+
+            
+        
+    
+
+            var circle_5dfa64596f89442f8c203bc435403b40 = L.circle(
+                [-6.1902, 106.92299999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 232.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_ed1bccf3538d44459b984e12de1d5803 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_37bfdbfbc78341c58bc66f2c6ec61e09 = $(`<div id="html_37bfdbfbc78341c58bc66f2c6ec61e09" style="width: 100.0%; height: 100.0%;">Yayasan Al Hidayah</div>`)[0];
+                popup_ed1bccf3538d44459b984e12de1d5803.setContent(html_37bfdbfbc78341c58bc66f2c6ec61e09);
+            
+
+            circle_5dfa64596f89442f8c203bc435403b40.bindPopup(popup_ed1bccf3538d44459b984e12de1d5803)
+            ;
+
+            
+        
+    
+
+            var circle_849906bc451c4454af321940a9e40d9e = L.circle(
+                [-6.2267, 106.8816],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 85.935,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_37d151b738964b15b8c63f761fea8850 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d98f570d98d1410b97038ccc14098035 = $(`<div id="html_d98f570d98d1410b97038ccc14098035" style="width: 100.0%; height: 100.0%;">Auto Image Motor(SubHub)</div>`)[0];
+                popup_37d151b738964b15b8c63f761fea8850.setContent(html_d98f570d98d1410b97038ccc14098035);
+            
+
+            circle_849906bc451c4454af321940a9e40d9e.bindPopup(popup_37d151b738964b15b8c63f761fea8850)
+            ;
+
+            
+        
+    
+
+            var circle_0c3e0e7ccb084886ae4c2bdb3811aa0a = L.circle(
+                [-6.2114, 106.8609],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 668.611,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_74a3b8d1f80748cba53e96bee7a61b22 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1869564a03fd42beafd8e3e9d12f54f9 = $(`<div id="html_1869564a03fd42beafd8e3e9d12f54f9" style="width: 100.0%; height: 100.0%;">Gd. Bumi Asih Jaya</div>`)[0];
+                popup_74a3b8d1f80748cba53e96bee7a61b22.setContent(html_1869564a03fd42beafd8e3e9d12f54f9);
+            
+
+            circle_0c3e0e7ccb084886ae4c2bdb3811aa0a.bindPopup(popup_74a3b8d1f80748cba53e96bee7a61b22)
+            ;
+
+            
+        
+    
+
+            var circle_68e107d3274c45ca92ded965bc8b4d0b = L.circle(
+                [-6.1656, 106.7474],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 195.84,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_765f85ee79da4f8c9a613a68ac61a6cb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0b4d3129117e41ae96e0fc8180b558a2 = $(`<div id="html_0b4d3129117e41ae96e0fc8180b558a2" style="width: 100.0%; height: 100.0%;">Taman Permata Buana</div>`)[0];
+                popup_765f85ee79da4f8c9a613a68ac61a6cb.setContent(html_0b4d3129117e41ae96e0fc8180b558a2);
+            
+
+            circle_68e107d3274c45ca92ded965bc8b4d0b.bindPopup(popup_765f85ee79da4f8c9a613a68ac61a6cb)
+            ;
+
+            
+        
+    
+
+            var circle_8090e49749e745dba4c1cd356f131ff8 = L.circle(
+                [-6.2093, 106.796],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 569.401,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_962b908d6c624233a1030c974f70ec8c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9d034713c3f14f7da80299ea980343d9 = $(`<div id="html_9d034713c3f14f7da80299ea980343d9" style="width: 100.0%; height: 100.0%;">Apt Permata Senayan</div>`)[0];
+                popup_962b908d6c624233a1030c974f70ec8c.setContent(html_9d034713c3f14f7da80299ea980343d9);
+            
+
+            circle_8090e49749e745dba4c1cd356f131ff8.bindPopup(popup_962b908d6c624233a1030c974f70ec8c)
+            ;
+
+            
+        
+    
+
+            var circle_bfafc6a7c8c748a88c41a2cfa26008c1 = L.circle(
+                [-6.2293, 106.7874],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 323.105,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_1db103e7471146d68df248521272ac82 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_35cb117877524118bb865b930b3eb5cd = $(`<div id="html_35cb117877524118bb865b930b3eb5cd" style="width: 100.0%; height: 100.0%;">Tower Lampu Pertamina Simprug</div>`)[0];
+                popup_1db103e7471146d68df248521272ac82.setContent(html_35cb117877524118bb865b930b3eb5cd);
+            
+
+            circle_bfafc6a7c8c748a88c41a2cfa26008c1.bindPopup(popup_1db103e7471146d68df248521272ac82)
+            ;
+
+            
+        
+    
+
+            var circle_254b211f0b954c05b419f88adb0b8588 = L.circle(
+                [-6.2689, 106.859],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 120.342,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_197e22afe5db405abc85b20dc38d7709 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_419cedc9d8514bff93d79f30d065289a = $(`<div id="html_419cedc9d8514bff93d79f30d065289a" style="width: 100.0%; height: 100.0%;">Masjid Ash Sholihin</div>`)[0];
+                popup_197e22afe5db405abc85b20dc38d7709.setContent(html_419cedc9d8514bff93d79f30d065289a);
+            
+
+            circle_254b211f0b954c05b419f88adb0b8588.bindPopup(popup_197e22afe5db405abc85b20dc38d7709)
+            ;
+
+            
+        
+    
+
+            var circle_6ab5767248c94321b3cd0fc2cb34e28b = L.circle(
+                [-6.24829, 106.81069],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 118.935,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_056546df11f7466b9232c811e9ac53c3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8d16e264ce474f6ca264b0fd5881fdd2 = $(`<div id="html_8d16e264ce474f6ca264b0fd5881fdd2" style="width: 100.0%; height: 100.0%;">Apartemen Kintamani</div>`)[0];
+                popup_056546df11f7466b9232c811e9ac53c3.setContent(html_8d16e264ce474f6ca264b0fd5881fdd2);
+            
+
+            circle_6ab5767248c94321b3cd0fc2cb34e28b.bindPopup(popup_056546df11f7466b9232c811e9ac53c3)
+            ;
+
+            
+        
+    
+
+            var circle_3883b9c1fc9a4f50bc3e4c34664936e5 = L.circle(
+                [-6.263, 106.7828],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 308.795,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_82d0db1459f24a1ca0adb060be15aab8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1aef6470df824ee5baaacb8ca2ce52f2 = $(`<div id="html_1aef6470df824ee5baaacb8ca2ce52f2" style="width: 100.0%; height: 100.0%;">Wisma Pondok Indah</div>`)[0];
+                popup_82d0db1459f24a1ca0adb060be15aab8.setContent(html_1aef6470df824ee5baaacb8ca2ce52f2);
+            
+
+            circle_3883b9c1fc9a4f50bc3e4c34664936e5.bindPopup(popup_82d0db1459f24a1ca0adb060be15aab8)
+            ;
+
+            
+        
+    
+
+            var circle_2a93eb6abd094e0b8e7cc1cc8700adc2 = L.circle(
+                [-6.25028, 106.95161],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 126.135,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_a2ebdf31e5e64c2da3a06b4888e604b2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_42b84c1cf0f24d08931a98635973d87a = $(`<div id="html_42b84c1cf0f24d08931a98635973d87a" style="width: 100.0%; height: 100.0%;">Ruko Elite ( Ruko Taman Bougenville )</div>`)[0];
+                popup_a2ebdf31e5e64c2da3a06b4888e604b2.setContent(html_42b84c1cf0f24d08931a98635973d87a);
+            
+
+            circle_2a93eb6abd094e0b8e7cc1cc8700adc2.bindPopup(popup_a2ebdf31e5e64c2da3a06b4888e604b2)
+            ;
+
+            
+        
+    
+
+            var circle_9fb8a6ed3d704cf6862c95434798f31d = L.circle(
+                [-6.261769999999999, 106.92608999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 140.978,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_a17a370c8a184bc7a243b48127c75b15 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4aa5649f94464c7d9969209aca09f240 = $(`<div id="html_4aa5649f94464c7d9969209aca09f240" style="width: 100.0%; height: 100.0%;">Bekasi Jati Bening (Colo IT)</div>`)[0];
+                popup_a17a370c8a184bc7a243b48127c75b15.setContent(html_4aa5649f94464c7d9969209aca09f240);
+            
+
+            circle_9fb8a6ed3d704cf6862c95434798f31d.bindPopup(popup_a17a370c8a184bc7a243b48127c75b15)
+            ;
+
+            
+        
+    
+
+            var circle_8f868aab5f8b49dca628923f3bb971e2 = L.circle(
+                [-6.29177, 106.79765],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 852.858,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_db927633c413475ea2d1fdb0dced5440 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e79c40811dd94698ad3b6f68dd3fd0dc = $(`<div id="html_e79c40811dd94698ad3b6f68dd3fd0dc" style="width: 100.0%; height: 100.0%;">Graha Saptaindra</div>`)[0];
+                popup_db927633c413475ea2d1fdb0dced5440.setContent(html_e79c40811dd94698ad3b6f68dd3fd0dc);
+            
+
+            circle_8f868aab5f8b49dca628923f3bb971e2.bindPopup(popup_db927633c413475ea2d1fdb0dced5440)
+            ;
+
+            
+        
+    
+
+            var circle_14d24643a6be4bf9bc76e79d6c8e9e12 = L.circle(
+                [-6.3106, 106.7932],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 150.519,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_62abb3a76e57490098378d71379cfee4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ed330f9b89214f28a11fb073698ee77c = $(`<div id="html_ed330f9b89214f28a11fb073698ee77c" style="width: 100.0%; height: 100.0%;">BSI Pondok Labu</div>`)[0];
+                popup_62abb3a76e57490098378d71379cfee4.setContent(html_ed330f9b89214f28a11fb073698ee77c);
+            
+
+            circle_14d24643a6be4bf9bc76e79d6c8e9e12.bindPopup(popup_62abb3a76e57490098378d71379cfee4)
+            ;
+
+            
+        
+    
+
+            var circle_7fbaddfe73a34bf29f5b5804624cb76d = L.circle(
+                [-6.29979, 106.77933999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 89.754,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_780481f42c4e417f8856483421f85447 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_246ab8bd0c704ef8adeb01bd39e99174 = $(`<div id="html_246ab8bd0c704ef8adeb01bd39e99174" style="width: 100.0%; height: 100.0%;">CILANDAK (Kr. Tengah)</div>`)[0];
+                popup_780481f42c4e417f8856483421f85447.setContent(html_246ab8bd0c704ef8adeb01bd39e99174);
+            
+
+            circle_7fbaddfe73a34bf29f5b5804624cb76d.bindPopup(popup_780481f42c4e417f8856483421f85447)
+            ;
+
+            
+        
+    
+
+            var circle_915f5b7b42b64a3e832f4135ad379048 = L.circle(
+                [-6.2574, 106.73700000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 392.078,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_b3bedce53a7947d7a87d54e329a0eff0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_52b06db435a145119f58b079e1276a4e = $(`<div id="html_52b06db435a145119f58b079e1276a4e" style="width: 100.0%; height: 100.0%;">Jurangmangu</div>`)[0];
+                popup_b3bedce53a7947d7a87d54e329a0eff0.setContent(html_52b06db435a145119f58b079e1276a4e);
+            
+
+            circle_915f5b7b42b64a3e832f4135ad379048.bindPopup(popup_b3bedce53a7947d7a87d54e329a0eff0)
+            ;
+
+            
+        
+    
+
+            var circle_52c3ccaf2723417291bc6e3dc464d8de = L.circle(
+                [-6.2333, 106.7367],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.617,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_9800b5e96228412188775d61be42cd86 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0b921b2f12cd406a842e833f3bfda2f6 = $(`<div id="html_0b921b2f12cd406a842e833f3bfda2f6" style="width: 100.0%; height: 100.0%;">Cipadu</div>`)[0];
+                popup_9800b5e96228412188775d61be42cd86.setContent(html_0b921b2f12cd406a842e833f3bfda2f6);
+            
+
+            circle_52c3ccaf2723417291bc6e3dc464d8de.bindPopup(popup_9800b5e96228412188775d61be42cd86)
+            ;
+
+            
+        
+    
+
+            var circle_800a8eb853cc4b7f81d25ce13fdf8bc2 = L.circle(
+                [-6.17735, 106.71016999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 647.993,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_fb826d71798d411cbf790b86ac23cfc3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_44c14665c7aa4b80816d1ad9d9e65f40 = $(`<div id="html_44c14665c7aa4b80816d1ad9d9e65f40" style="width: 100.0%; height: 100.0%;">Kresek Duri Kosambi</div>`)[0];
+                popup_fb826d71798d411cbf790b86ac23cfc3.setContent(html_44c14665c7aa4b80816d1ad9d9e65f40);
+            
+
+            circle_800a8eb853cc4b7f81d25ce13fdf8bc2.bindPopup(popup_fb826d71798d411cbf790b86ac23cfc3)
+            ;
+
+            
+        
+    
+
+            var circle_fcbe23e9d63c48a98f101e65e5fd36c8 = L.circle(
+                [-6.15371, 106.67616000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 826.552,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_014feaab35d54e63b09cc2e0fd225f14 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_800d021c262d4f6e8e1f954d6fc9beef = $(`<div id="html_800d021c262d4f6e8e1f954d6fc9beef" style="width: 100.0%; height: 100.0%;">Batu Ceper</div>`)[0];
+                popup_014feaab35d54e63b09cc2e0fd225f14.setContent(html_800d021c262d4f6e8e1f954d6fc9beef);
+            
+
+            circle_fcbe23e9d63c48a98f101e65e5fd36c8.bindPopup(popup_014feaab35d54e63b09cc2e0fd225f14)
+            ;
+
+            
+        
+    
+
+            var circle_1d4315639e7f417ba55b1dd9c06ec174 = L.circle(
+                [-6.3589, 106.8388],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 56.566,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_c8547586d29c4f348c15b6875674fe17 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_348ab8a6a5a54038aa92cf65a1f1db72 = $(`<div id="html_348ab8a6a5a54038aa92cf65a1f1db72" style="width: 100.0%; height: 100.0%;">Kelapa Dua_Brimob</div>`)[0];
+                popup_c8547586d29c4f348c15b6875674fe17.setContent(html_348ab8a6a5a54038aa92cf65a1f1db72);
+            
+
+            circle_1d4315639e7f417ba55b1dd9c06ec174.bindPopup(popup_c8547586d29c4f348c15b6875674fe17)
+            ;
+
+            
+        
+    
+
+            var circle_dc370e64a4a64c1aab174f7e610b43f6 = L.circle(
+                [-6.2025, 106.702583],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 238.942,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_8b68b74009f747bc8a919e91561d3a84 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d73ee8ef80fc455ab697c2cb526890db = $(`<div id="html_d73ee8ef80fc455ab697c2cb526890db" style="width: 100.0%; height: 100.0%;">Pondok Bahar</div>`)[0];
+                popup_8b68b74009f747bc8a919e91561d3a84.setContent(html_d73ee8ef80fc455ab697c2cb526890db);
+            
+
+            circle_dc370e64a4a64c1aab174f7e610b43f6.bindPopup(popup_8b68b74009f747bc8a919e91561d3a84)
+            ;
+
+            
+        
+    
+
+            var circle_5db1db01f2fa474783db6c51b2fd5a3b = L.circle(
+                [-6.21774, 106.69672],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 900.495,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_3faed4a2fe734c0babdd4933a3d93d0a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c4a2a1297ff2488bb391f6be6a8dbdc8 = $(`<div id="html_c4a2a1297ff2488bb391f6be6a8dbdc8" style="width: 100.0%; height: 100.0%;">Kp.Poncol</div>`)[0];
+                popup_3faed4a2fe734c0babdd4933a3d93d0a.setContent(html_c4a2a1297ff2488bb391f6be6a8dbdc8);
+            
+
+            circle_5db1db01f2fa474783db6c51b2fd5a3b.bindPopup(popup_3faed4a2fe734c0babdd4933a3d93d0a)
+            ;
+
+            
+        
+    
+
+            var circle_4369dedf0aa94fbc8682821bc8915a10 = L.circle(
+                [-6.2479, 106.8434],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 335.929,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_d5f3cb2847264a08952f032af958ba2c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2153b1556169481cb5774e841de9a733 = $(`<div id="html_2153b1556169481cb5774e841de9a733" style="width: 100.0%; height: 100.0%;">Gd. Graha Anugrah</div>`)[0];
+                popup_d5f3cb2847264a08952f032af958ba2c.setContent(html_2153b1556169481cb5774e841de9a733);
+            
+
+            circle_4369dedf0aa94fbc8682821bc8915a10.bindPopup(popup_d5f3cb2847264a08952f032af958ba2c)
+            ;
+
+            
+        
+    
+
+            var circle_2ce635a1bcf74395a8d00f2b43f0d5dc = L.circle(
+                [-6.3187, 106.7694],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 231.148,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_6a14030b77f8475794a28cbbff9fba3a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2555f3fbba954574850b72e9812db497 = $(`<div id="html_2555f3fbba954574850b72e9812db497" style="width: 100.0%; height: 100.0%;">Tamansari Pesona Bali (Colo IT)</div>`)[0];
+                popup_6a14030b77f8475794a28cbbff9fba3a.setContent(html_2555f3fbba954574850b72e9812db497);
+            
+
+            circle_2ce635a1bcf74395a8d00f2b43f0d5dc.bindPopup(popup_6a14030b77f8475794a28cbbff9fba3a)
+            ;
+
+            
+        
+    
+
+            var circle_fb67410acd3a4fd98ca9dd4032920bba = L.circle(
+                [-6.17662, 106.67036999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 768.496,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fe09430813624fb9ab75db8f2285dec4);
+            
+    
+            var popup_b640da49f42e4fa19d9e48e27fed7cb5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0d3443086b16402da7015b3ab2217302 = $(`<div id="html_0d3443086b16402da7015b3ab2217302" style="width: 100.0%; height: 100.0%;">Tower Provider</div>`)[0];
+                popup_b640da49f42e4fa19d9e48e27fed7cb5.setContent(html_0d3443086b16402da7015b3ab2217302);
+            
+
+            circle_fb67410acd3a4fd98ca9dd4032920bba.bindPopup(popup_b640da49f42e4fa19d9e48e27fed7cb5)
+            ;
+
+            
+        
+</script>
