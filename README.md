@@ -1,2 +1,2 @@
 # FoliumPractice
-Practice Plotting Geospatial data into map
+Tutorial on how to Plotting Geospatial data into visualization map using Folium.
